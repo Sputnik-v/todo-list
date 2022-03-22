@@ -1,0 +1,72 @@
+.todo_list_all {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  border: 1px solid rgb(206, 205, 205);
+  border-radius: 4px;
+  padding: 10px 10px;
+  transition: all 0.2s linear;
+}
+.icons_item {
+  display: flex;
+  gap: 5px;
+}
+
+.list_item {
+  margin: 0;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s linear;
+}
+
+.icons {
+  width: 40px;
+  height: 40px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.1s linear;
+}
+
+.icons:hover {
+  transform: scale(1.1);
+  transition: all 0.2s linear;
+}
+.delete {
+  border: 2px solid rgb(131, 42, 42);
+  background-image: url("../../img/delete.ico");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.ok {
+  border: 2px solid rgb(12, 143, 99);
+  background-image: url("../../img/check-solid.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.done {
+  text-decoration: line-through;
+  background-color: rgb(153, 158, 161);
+  padding: 5px 50px 5px 10px;
+  border-radius: 3px;
+  transition: all 0.2s linear;
+}
+.kilt {
+  background-color: rgba(12, 123, 54, 0.6);
+  transition: all 0.2s linear;
+}
+
+@keyframes anima {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.delete_component {
+  animation: anima 0.2s linear;
+}

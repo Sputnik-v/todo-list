@@ -1,0 +1,26 @@
+.filter {
+  display: flex;
+}
+
+.search__panel {
+  flex: 1 1 100px;
+  border: 1px solid rgb(24, 151, 151);
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.btn_inputs {
+  border: 1px solid rgb(24, 151, 151);
+  border-radius: 5px;
+}
+
+.filter__btn {
+  font-weight: bold;
+  outline: none;
+  border: none;
+  height: 30px;
+  border-left: 1px solid rgb(24, 151, 151);
+}
+.active_btn {
+  background-color: rgb(24, 151, 151);
+}

@@ -1,0 +1,27 @@
+.todo {
+  margin-top: 20px;
+}
+.input {
+  flex: 1 1 100px;
+  padding-left: 10px;
+  border: 1px solid rgb(24, 151, 151);
+  border-radius: 5px 0 0 5px;
+  height: 30px;
+}
+.button__item {
+  font-weight: bold;
+  outline: none;
+  border: none;
+  height: 30px;
+  border: 1px solid rgb(24, 151, 151);
+  border-radius: 0 5px 5px 0;
+  background-color: rgba(24, 151, 151, 0.9);
+  transition: all 0.2s linear;
+}
+.button__item:hover {
+  background-color: rgba(24, 151, 151, 0.5);
+  transition: all 0.2s linear;
+}
+.form {
+  display: flex;
+}

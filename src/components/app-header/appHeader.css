@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.header__title {
+  color: rgb(6, 110, 110);
+  font-weight: bold;
+}
+
+.header__p {
+  color: rgb(154, 156, 158);
+}
